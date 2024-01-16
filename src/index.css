@@ -1,4 +1,10 @@
 :root {
+  --black: #010400ff;
+  --wine: #823038ff;
+  --vanilla: #ede7b1ff;
+  --paynes-gray: #587291ff;
+  --lavender-web: #d2d7efff;
+
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
