@@ -1,8 +1,14 @@
 #root {
-  max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
+  justify-content: center;
+  align-items:center;
+
+  --black: #010400ff;
+  --wine: #823038ff;
+  --vanilla: rgb(247, 245, 229);
+  --paynes-gray: #587291ff;
+  --lavender-web: rgb(235, 237, 247);
 }
 
 .logo {
@@ -33,10 +39,112 @@
   }
 }
 
-.card {
-  padding: 2em;
+body {
+  font-family: 'Verdana', sans-serif;
 }
 
-.read-the-docs {
-  color: #888;
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2em;
+  text-align: center;
+}
+
+header, h1 {
+  font-weight: bold;
+  color: var(--wine);
+}
+
+header img {
+  height: 200px;
+  margin-right: 1em;
+}
+
+footer {
+  margin-top: 2em;
+  font-size: 0.8em;
+  text-align: center;
+}
+
+footer img {
+  height: 70px;
+  margin: 0 0.2em;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  text-align: center;
+  background-color: var(--wine);
+  color: var(--lavender-web);
+  padding: 1em;
+  margin: 1rem 0 2rem;
+}
+
+main {
+  margin: 20vx 20vh;
+  font-family: 'Verdana', sans-serif;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2em;
+  text-align: center;
+  border-radius: 12px;
+  background-color: var(--lavender-web);
+  height: 40vh;
+  margin: 1em;
+}
+
+.project figure {
+  background-size: cover;
+  background-position: center;
+}
+
+.about-page {
+  display: flex;
+  justify-content: center;
+}
+
+.about-page img {
+  display: inline-block;
+  height: 300px;
+  margin-right: 1rem;
+  position: relative;
+  vertical-align: middle;
+  margin: auto 0;
+}
+
+.about-page div {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.nav-link {
+  color: var(--lavender-web);
+  text-decoration: none;
+  font-size: 1.5em;
+  margin: 0 1em;
+  transition: color 300ms;
+}
+
+main div {
+  margin: 5rem;
+  background-color: var(--lavender-web);
+  padding: 2em;
+  border-radius: 2em;
+}
+
+.contact-page {
+  justify-content: center;
+}
+
+.contact-card {
+  margin: 1em;
 }
