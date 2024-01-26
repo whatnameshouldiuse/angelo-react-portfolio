@@ -13,11 +13,14 @@ const projImages = [
 
 const Portfolio = () => {
     return (
-        <div className="d-flex flex-column">
+        <>
+        <h1>Portfolio</h1>
+        <div className="d-flex portfolio-page">
             {projImages.map((image) => (
                 <Project projectImage={image} />
             ))}
         </div>
+        </>
     );
 };
 

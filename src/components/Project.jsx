@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const Project = ({ projectImage }) => {
     return (
-        <div className="project">
+        <div className="project col-5">
             <figure style={{
                 backgroundImage: `url(${projectImage})`
             }}></figure>

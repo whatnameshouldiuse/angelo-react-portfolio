@@ -89,22 +89,28 @@ main {
   font-family: 'Verdana', sans-serif;
 }
 
-.project {
+.portfolio-page {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
+}
+
+.project {
   padding: 2em;
   text-align: center;
   border-radius: 12px;
   background-color: var(--lavender-web);
   height: 40vh;
-  margin: 1em;
+  margin: 1em 0;
 }
 
 .project figure {
   background-size: cover;
   background-position: center;
+  width: 100%;
+  height: 100%;
 }
 
 .about-page {
@@ -147,4 +153,8 @@ main div {
 
 .contact-card {
   margin: 1em;
+}
+
+.resume-page img {
+  width: 70vw;
 }

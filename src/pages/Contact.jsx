@@ -4,13 +4,13 @@ const Contact = () => {
     return (
         <>
             <h1>
-                Contact Page
+                Contact
             </h1>
             <div className='d-flex contact-page'>
                 <article className="contact-card">
                     <h3>Phone</h3>
                     <hr />
-                    <p>&lpar;512&rpar;461-7804</p>
+                    <p>&#40;512&#41;461-7804</p>
                 </article>
                 <article className="contact-card">
                     <h3>Email</h3>
